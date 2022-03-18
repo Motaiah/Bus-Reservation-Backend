@@ -21,7 +21,7 @@ public class Booking {
 	private boolean bookingStatus;
 	
 	@ManyToOne
-	@JoinColumn(name="cust_id")
+	@JoinColumn(name="cust_id")//sachin
 	private Customer customer;
 
 	public int getBookingId() {

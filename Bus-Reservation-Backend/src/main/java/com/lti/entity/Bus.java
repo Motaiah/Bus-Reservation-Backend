@@ -22,6 +22,8 @@ public class Bus {
 	private String destination;
 	private int totalSeats;
 	
+	//commit
+	
 	@ManyToOne
 	@JoinColumn(name="adm_id")
 	private Admin admin;

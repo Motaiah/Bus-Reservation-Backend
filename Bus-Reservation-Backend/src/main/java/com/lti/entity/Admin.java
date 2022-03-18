@@ -21,7 +21,7 @@ public class Admin {
 	private String username;
 	private String password;
 
-	@OneToMany(mappedBy = "admin")//commit
+	@OneToMany(mappedBy = "admin")//cimmit 
 	private List<Bus> buses;
 
 	public int getAdmid() {
